@@ -6,7 +6,7 @@
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start",
-    "vercel-build": "npm run prepare && npm next build"
+    "vercel-build": "npm run prepare && next build"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
@@ -37,6 +37,6 @@
     "prettier-plugin-tailwindcss": "0.5.4"
   },
   "engines": {
-    "node": ">=14.0.2"
+    "node": "20.x"
   }
 }
